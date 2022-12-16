@@ -1,0 +1,49 @@
+<script>
+    //new way of writing concise functions
+
+    //es5
+    var summ = function(){
+        var a = 5;
+        var b = 10;
+        return a+b;
+    }
+
+    console.log(summ());
+
+    //es6 
+    //one way to use in arrow function
+    const sum =  () =>  {
+        let a = 5;
+        let b = 10;
+        return a+b;
+    }
+
+    console.log(sum());
+
+
+
+    //fat arrow with ecs 6 demo function  
+    let a = 10;
+    let b = 20;
+
+    const summm = () => { return a+b }
+    console.log(summm());
+
+
+
+    //fat arrow function with another demo with parameeter one passing in one let
+    let c = 7;
+    
+    const plus = (d) => c+d
+    console.log(plus(c));
+
+
+    //fat arrow function with all paramaters
+    const pluss = (c,d) => c+d
+    console.log(plus(10,12));
+
+
+
+
+
+</script>
