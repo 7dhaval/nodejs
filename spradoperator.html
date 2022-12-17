@@ -1,0 +1,43 @@
+<script>
+
+    //es5
+ //   function sum(a,b,c){
+ //       console.log(a+b+c);
+ //   }
+ //    var arrVal = [1,2,3];
+ //    sum.apply(null, arrVal);
+
+
+ //es6
+ // function sum(a,b,c){
+ //   console.log(a+b+c);
+ // }
+
+ // var arrVal = [5,2,3];
+//  sum(...arrVal);
+//  sum.apply(null, arrVal);
+
+
+//replace concat()
+
+//let arr1 = [1,2,3];
+//let arr2 = [4,5,6];
+
+//arr1 = arr1.concat(arr2);
+//arr1 = [...arr1,...arr2];    //using spread operator
+//console.log(arr1);
+
+
+
+//add more values in array 
+let arrc1 = [1,2,3];
+//let arrc2 = arrc1;
+
+//arrc2.push(4,5);
+//console.log(arrc2); //now array2 values are added but there is one bug array1 is same as array2 so its not working
+//console.log(arrc1);
+//so insted of this let arrc2 = arrc1;
+let arrrc2 = [...arrc1,4,5]; ///values are added without effecting arrayc1
+console.log(arrrc2);
+console.log(arrc1);
+</script>
