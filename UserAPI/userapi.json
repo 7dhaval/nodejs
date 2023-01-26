@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "name": "dhaval",
+        "username": "dhavals",
+        "email": "dhavalsings@gmail.com",
+        "address": {
+            "street": "visat",
+            "suite": "307",
+            "city": "Ahmedabad",
+            "zipocde": "380005",
+            "geo": {
+                "lat": "-37.3156",
+                "lng": "81.23232"
+            }
+        },
+        "phone": "21312321313",
+        "website": "ahdhfa.org",
+        "company": {
+            "name": "dhavalcompany",
+            "catchPhrase": "JOD",
+            "bs": "harness"
+        } 
+    }
+]
